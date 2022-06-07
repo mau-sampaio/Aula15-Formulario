@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Karla;
+    display: flex;
+    flex-direction: column;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.desconto {
+    background-color: #1CD1B0;
+    padding: 5px 10px;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.nome-loja {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;    
+    padding: 5px 10px;
+}
+
+.nome-loja .logo{
+   display: flex;
+   align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 30px;
+   
+}
+
+.nome-loja nav {
+    display: flex;
+    gap: 20px;
+
+}
+
+.nome-loja nav a {
+    color: white;
+    font-family: Karla;
+    font-size: 20px; 
+    text-decoration: none;  
+    text-transform: uppercase;
+}
+
+.nome-loja nav a:hover{
+    text-decoration:  underline;
+      
+}
+
+
+
+main {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.central {
+    max-width: 620px;
+    width: 100%;
+    padding: 20px;
+}
+
+.central h1 {
+    font-family: Inter;
+    font-size: 72px;
+    color: #333333;
+}
+
+input,select,textarea {
+    font-family: Karla;
+    font-size: 20px;
+    padding: 10px;
+    height: 60px;
+    max-width: 620px;
+    width: 100%;
+    border: 1.53px solid black;
+}
+
+textarea {
+    height: auto;
+}
+
+button {
+    font-family: Karla;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #1CD1B0;
+    border: 0;
+    border-radius: 23px;
+    height: 53.79px;
+    margin-top: 40px;
+}
+
+.central p {
+    text-align: center;
+    font-size: 21.48px;
+}
+
+.central a {
+    text-decoration: none;
+    color: #00669F;
+}
+
+footer {
+    background-color: #00669F;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF9F9;
+}
+
+.botao-registro {
+    display: flex;
+    gap: 20px;
+}
+
+.botao-registro button {
+    flex: 1;
+}
+
+.botao-registro .reset {
+    background-color:  #888888;
+    color: white;
+}
+
+.contato-link {
+    background: rgb(28,209,176);
+    background: linear-gradient(0deg, rgba(28,209,176,1) 23%, rgba(0,102,159,1) 97%);
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    transition: margin-bottom 0.2s;
+}
+
+.contato-link:hover{
+    margin-bottom: 10px;
+    
+}
+
+.contato-link img {
+    height: 40px;
+}
