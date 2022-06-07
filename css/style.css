@@ -170,3 +170,12 @@ footer {
 .contato-link img {
     height: 40px;
 }
+@media (max-width:768px) {
+    .nome-loja {
+        flex-direction: column;
+    }
+
+    .desconto {
+        text-align: center;
+    }  
+}
